@@ -4,4 +4,8 @@ const user = new User({ name: "Valentyn27", age: 27 });
 
 user.save();
 
-console.log(user);
+user.events.on("click", () => {
+  console.log("clicked");
+});
+
+user.events.trigger("click");
