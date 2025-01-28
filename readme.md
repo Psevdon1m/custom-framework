@@ -69,7 +69,7 @@ The mock backend provides the following endpoint:
 
 ## Project Structure
 
-`src/
+``src/
 ├── models/
 │ ├── Model.ts # Base model class
 │ ├── User.ts # User model implementation
@@ -84,7 +84,8 @@ The mock backend provides the following endpoint:
 │ ├── UserData.ts # User data display
 │ ├── UserList.ts # User list view
 │ └── CollectionView.ts # Collection view base
-├── index.ts # Entry point`
+├── index.ts # Entry point
+``
 
 ## Key Features
 
