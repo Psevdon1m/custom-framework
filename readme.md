@@ -70,21 +70,21 @@ The mock backend provides the following endpoint:
 ## Project Structure
 
 src/
-   ├── models/
-   │ ├── Model.ts # Base model class
-   │ ├── User.ts # User model implementation
-   │ ├── Collection.ts # Collection handling
-   │ ├── ApiSync.ts # API operations
-   │ ├── Attributes.ts # Model attributes
-   │ └── Eventing.ts # Event system
-   ├── views/
-   │ ├── View.ts # Base view class
-   │ ├── UserEdit.ts # User edit view
-   │ ├── UserForm.ts # User form handling
-   │ ├── UserData.ts # User data display
-   │ ├── UserList.ts # User list view
-   │ └── CollectionView.ts # Collection view base
-   ├── index.ts # Entry point
+   ├── models/ \n
+   │ ├── Model.ts # Base model class \n
+   │ ├── User.ts # User model implementation \n
+   │ ├── Collection.ts # Collection handling \n
+   │ ├── ApiSync.ts # API operations \n
+   │ ├── Attributes.ts # Model attributes \n
+   │ └── Eventing.ts # Event system \n
+   ├── views/ \n
+   │ ├── View.ts # Base view class \n
+   │ ├── UserEdit.ts # User edit view \n
+   │ ├── UserForm.ts # User form handling \n
+   │ ├── UserData.ts # User data display \n
+   │ ├── UserList.ts # User list view \n
+   │ └── CollectionView.ts # Collection view base \n
+   ├── index.ts # Entry point \n
 
 ## Key Features
 
